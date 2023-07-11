@@ -1,0 +1,20 @@
+2023-05-09 20:38:55,673 INFO    MainThread:2050 [wandb_setup.py:_flush():76] Configure stats pid to 2050
+2023-05-09 20:38:55,673 INFO    MainThread:2050 [wandb_setup.py:_flush():76] Loading settings from /Users/ajay/.config/wandb/settings
+2023-05-09 20:38:55,673 INFO    MainThread:2050 [wandb_setup.py:_flush():76] Loading settings from /Users/ajay/Downloads/mlops/credit_fraud/experiment_tracking/wandb/wandb/settings
+2023-05-09 20:38:55,674 INFO    MainThread:2050 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-05-09 20:38:55,674 INFO    MainThread:2050 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-05-09 20:38:55,674 INFO    MainThread:2050 [wandb_init.py:_log_setup():506] Logging user logs to /Users/ajay/Downloads/mlops/credit_fraud/experiment_tracking/wandb/wandb/run-20230509_203855-6x1ijcb7/logs/debug.log
+2023-05-09 20:38:55,675 INFO    MainThread:2050 [wandb_init.py:_log_setup():507] Logging internal logs to /Users/ajay/Downloads/mlops/credit_fraud/experiment_tracking/wandb/wandb/run-20230509_203855-6x1ijcb7/logs/debug-internal.log
+2023-05-09 20:38:55,675 INFO    MainThread:2050 [wandb_init.py:_jupyter_setup():452] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fcd9105a5c0>
+2023-05-09 20:38:55,675 INFO    MainThread:2050 [wandb_init.py:init():546] calling init triggers
+2023-05-09 20:38:55,675 INFO    MainThread:2050 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {}
+2023-05-09 20:38:55,675 INFO    MainThread:2050 [wandb_init.py:init():602] starting backend
+2023-05-09 20:38:55,675 INFO    MainThread:2050 [wandb_init.py:init():606] setting up manager
+2023-05-09 20:38:55,679 INFO    MainThread:2050 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-05-09 20:38:55,682 INFO    MainThread:2050 [wandb_init.py:init():613] backend started and connected
+2023-05-09 20:38:55,687 INFO    MainThread:2050 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-05-09 20:38:55,690 INFO    MainThread:2050 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-05-09 20:38:55,690 INFO    MainThread:2050 [wandb_init.py:init():701] updated telemetry
+2023-05-09 20:38:55,750 INFO    MainThread:2050 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-05-09 20:38:55,812 ERROR   MainThread:2050 [wandb_init.py:init():764] encountered error: The API key is either invalid or missing, or the host is incorrect. To resolve this issue, you may try running the 'wandb login --host [hostname]' command. The host defaults to 'https://api.wandb.ai' if not specified. (Error 401: Unauthorized)

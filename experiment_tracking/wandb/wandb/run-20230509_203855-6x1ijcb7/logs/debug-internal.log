@@ -1,0 +1,74 @@
+2023-05-09 20:38:55,682 INFO    StreamThr :2056 [internal.py:wandb_internal():87] W&B internal server running at pid: 2056, started at: 2023-05-09 20:38:55.681789
+2023-05-09 20:38:55,683 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status
+2023-05-09 20:38:55,692 INFO    WriterThread:2056 [datastore.py:open_for_write():85] open: /Users/ajay/Downloads/mlops/credit_fraud/experiment_tracking/wandb/wandb/run-20230509_203855-6x1ijcb7/run-6x1ijcb7.wandb
+2023-05-09 20:38:55,693 DEBUG   SenderThread:2056 [sender.py:send():336] send: header
+2023-05-09 20:38:55,751 DEBUG   SenderThread:2056 [sender.py:send():336] send: run
+2023-05-09 20:38:55,805 ERROR   SenderThread:2056 [internal_api.py:execute():246] 401 response executing GraphQL.
+2023-05-09 20:38:55,805 ERROR   SenderThread:2056 [internal_api.py:execute():247] {"errors":[{"message":"user is not logged in","path":["upsertBucket"],"extensions":{"code":"PERMISSION_ERROR"}}],"data":{"upsertBucket":null}}
+2023-05-09 20:38:55,805 ERROR   SenderThread:2056 [sender.py:send_run():931] The API key is either invalid or missing, or the host is incorrect. To resolve this issue, you may try running the 'wandb login --host [hostname]' command. The host defaults to 'https://api.wandb.ai' if not specified. (Error 401: Unauthorized)
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/mlops/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/opt/anaconda3/envs/mlops/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 243, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/opt/anaconda3/envs/mlops/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/opt/anaconda3/envs/mlops/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/opt/anaconda3/envs/mlops/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 39, in execute
+    request.raise_for_status()
+  File "/opt/anaconda3/envs/mlops/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://localhost:8080/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/mlops/lib/python3.10/site-packages/wandb/sdk/internal/sender.py", line 929, in send_run
+    self._init_run(run, config_value_dict)
+  File "/opt/anaconda3/envs/mlops/lib/python3.10/site-packages/wandb/sdk/internal/sender.py", line 968, in _init_run
+    server_run, inserted, server_messages = self._api.upsert_run(
+  File "/opt/anaconda3/envs/mlops/lib/python3.10/site-packages/wandb/apis/normalize.py", line 51, in wrapper
+    raise err
+  File "/opt/anaconda3/envs/mlops/lib/python3.10/site-packages/wandb/apis/normalize.py", line 25, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/anaconda3/envs/mlops/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 1664, in upsert_run
+    response = self.gql(
+  File "/opt/anaconda3/envs/mlops/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 215, in gql
+    ret = self._retry_gql(
+  File "/opt/anaconda3/envs/mlops/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 147, in __call__
+    retry_timedelta_triggered = check_retry_fn(e)
+  File "/opt/anaconda3/envs/mlops/lib/python3.10/site-packages/wandb/util.py", line 1092, in check_retry_fn
+    return fallback_retry_fn(e)
+  File "/opt/anaconda3/envs/mlops/lib/python3.10/site-packages/wandb/util.py", line 1025, in no_retry_auth
+    raise CommError(
+wandb.errors.CommError: The API key is either invalid or missing, or the host is incorrect. To resolve this issue, you may try running the 'wandb login --host [hostname]' command. The host defaults to 'https://api.wandb.ai' if not specified. (Error 401: Unauthorized)
+2023-05-09 20:39:00,829 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 20:39:05,851 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 20:39:10,874 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 20:39:15,899 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 20:39:20,921 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 20:39:25,938 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 20:39:30,958 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 20:39:35,981 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 20:39:41,004 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 20:39:46,022 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 20:39:51,044 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 20:39:56,059 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 20:40:01,079 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 20:40:06,090 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 20:40:11,112 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 20:40:16,132 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 20:40:21,146 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 20:40:26,166 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 20:40:31,191 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 20:40:36,205 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 20:40:41,224 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 20:40:46,246 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 20:40:51,269 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 20:40:56,284 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 20:41:01,308 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 20:41:06,328 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 20:41:11,347 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 20:41:16,370 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 20:41:21,387 DEBUG   HandlerThread:2056 [handler.py:handle_request():144] handle_request: status_report

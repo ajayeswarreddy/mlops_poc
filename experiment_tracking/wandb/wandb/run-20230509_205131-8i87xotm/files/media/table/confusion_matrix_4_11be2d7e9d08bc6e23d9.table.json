@@ -1,0 +1,1 @@
+{"columns": ["Predicted", "Actual", "Count"], "data": [["not_fraud", "not_fraud", 12382], ["not_fraud", "fraud", 50], ["fraud", "not_fraud", 49], ["fraud", "fraud", 1601]]}

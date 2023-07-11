@@ -1,0 +1,41 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.10.9",
+    "heartbeatAt": "2023-05-10T03:51:32.202250",
+    "startedAt": "2023-05-10T03:51:31.745282",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "git@github.com:ajay-usfca/credit_fraud.git",
+        "commit": "825735b76d2d5d1bd71779279a26658104c17a10"
+    },
+    "email": "ajayeswarb2a@gmail.com",
+    "root": "/Users/ajay/Downloads/mlops/credit_fraud",
+    "host": "ajayeswars-air.ds.usfca.edu",
+    "username": "ajay",
+    "executable": "/opt/anaconda3/envs/mlops/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "total": 228.27386474609375,
+        "used": 131.06005096435547
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

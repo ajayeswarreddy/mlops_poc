@@ -1,0 +1,112 @@
+2023-05-09 20:51:31,748 INFO    MainThread:1061 [wandb_setup.py:_flush():76] Current SDK version is 0.15.2
+2023-05-09 20:51:31,748 INFO    MainThread:1061 [wandb_setup.py:_flush():76] Configure stats pid to 1061
+2023-05-09 20:51:31,748 INFO    MainThread:1061 [wandb_setup.py:_flush():76] Loading settings from /Users/ajay/.config/wandb/settings
+2023-05-09 20:51:31,748 INFO    MainThread:1061 [wandb_setup.py:_flush():76] Loading settings from /Users/ajay/Downloads/mlops/credit_fraud/experiment_tracking/wandb/wandb/settings
+2023-05-09 20:51:31,748 INFO    MainThread:1061 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-05-09 20:51:31,748 INFO    MainThread:1061 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-05-09 20:51:31,748 INFO    MainThread:1061 [wandb_init.py:_log_setup():507] Logging user logs to /Users/ajay/Downloads/mlops/credit_fraud/experiment_tracking/wandb/wandb/run-20230509_205131-8i87xotm/logs/debug.log
+2023-05-09 20:51:31,748 INFO    MainThread:1061 [wandb_init.py:_log_setup():508] Logging internal logs to /Users/ajay/Downloads/mlops/credit_fraud/experiment_tracking/wandb/wandb/run-20230509_205131-8i87xotm/logs/debug-internal.log
+2023-05-09 20:51:31,748 INFO    MainThread:1061 [wandb_init.py:_jupyter_setup():453] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fc6419e16c0>
+2023-05-09 20:51:31,749 INFO    MainThread:1061 [wandb_init.py:init():547] calling init triggers
+2023-05-09 20:51:31,749 INFO    MainThread:1061 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-05-09 20:51:31,749 INFO    MainThread:1061 [wandb_init.py:init():596] starting backend
+2023-05-09 20:51:31,749 INFO    MainThread:1061 [wandb_init.py:init():600] setting up manager
+2023-05-09 20:51:31,751 INFO    MainThread:1061 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-05-09 20:51:31,753 INFO    MainThread:1061 [wandb_init.py:init():606] backend started and connected
+2023-05-09 20:51:31,758 INFO    MainThread:1061 [wandb_run.py:_label_probe_notebook():1238] probe notebook
+2023-05-09 20:51:31,759 INFO    MainThread:1061 [wandb_run.py:_label_probe_notebook():1248] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-05-09 20:51:31,759 INFO    MainThread:1061 [wandb_init.py:init():700] updated telemetry
+2023-05-09 20:51:31,812 INFO    MainThread:1061 [wandb_init.py:init():737] communicating run to backend with 60.0 second timeout
+2023-05-09 20:51:32,086 INFO    MainThread:1061 [wandb_run.py:_on_init():2177] communicating current version
+2023-05-09 20:51:32,172 INFO    MainThread:1061 [wandb_run.py:_on_init():2186] got version response 
+2023-05-09 20:51:32,172 INFO    MainThread:1061 [wandb_init.py:init():787] starting run threads in backend
+2023-05-09 20:51:40,888 INFO    MainThread:1061 [wandb_run.py:_console_start():2158] atexit reg
+2023-05-09 20:51:40,889 INFO    MainThread:1061 [wandb_run.py:_redirect():2013] redirect: SettingsConsole.WRAP_RAW
+2023-05-09 20:51:40,889 INFO    MainThread:1061 [wandb_run.py:_redirect():2078] Wrapping output streams.
+2023-05-09 20:51:40,889 INFO    MainThread:1061 [wandb_run.py:_redirect():2103] Redirects installed.
+2023-05-09 20:51:40,889 INFO    MainThread:1061 [wandb_init.py:init():829] run started, returning control to user process
+2023-05-09 20:51:40,892 INFO    MainThread:1061 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-05-09 20:51:40,892 INFO    MainThread:1061 [wandb_init.py:_pause_backend():418] pausing backend
+2023-05-09 20:55:27,239 INFO    MainThread:1061 [wandb_init.py:_resume_backend():423] resuming backend
+2023-05-09 20:55:27,241 INFO    MainThread:1061 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-05-09 20:55:27,241 INFO    MainThread:1061 [wandb_init.py:_pause_backend():418] pausing backend
+2023-05-09 20:55:29,149 INFO    MainThread:1061 [wandb_init.py:_resume_backend():423] resuming backend
+2023-05-09 20:55:29,208 INFO    MainThread:1061 [wandb_run.py:_config_callback():1286] config_cb ('_wandb', 'viz', 'class_proportions') {'id': 'wandb/class_proportions/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'class_proportions'}} None
+2023-05-09 20:55:29,531 INFO    MainThread:1061 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-05-09 20:55:29,532 INFO    MainThread:1061 [wandb_init.py:_pause_backend():418] pausing backend
+2023-05-09 20:56:32,376 INFO    MainThread:1061 [wandb_init.py:_resume_backend():423] resuming backend
+2023-05-09 20:56:32,380 INFO    MainThread:1061 [wandb_run.py:_config_callback():1286] config_cb ('_wandb', 'viz', 'class_proportions') {'id': 'wandb/class_proportions/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'class_proportions'}} None
+2023-05-09 20:56:32,525 INFO    MainThread:1061 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-05-09 20:56:32,525 INFO    MainThread:1061 [wandb_init.py:_pause_backend():418] pausing backend
+2023-05-09 20:58:02,555 INFO    MainThread:1061 [wandb_init.py:_resume_backend():423] resuming backend
+2023-05-09 20:58:07,628 INFO    MainThread:1061 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-05-09 20:58:07,628 INFO    MainThread:1061 [wandb_init.py:_pause_backend():418] pausing backend
+2023-05-09 20:58:41,387 INFO    MainThread:1061 [wandb_init.py:_resume_backend():423] resuming backend
+2023-05-09 20:58:41,407 INFO    MainThread:1061 [wandb_run.py:_config_callback():1286] config_cb ('_wandb', 'viz', 'roc') {'id': 'wandb/roc/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'roc'}} None
+2023-05-09 20:58:41,532 INFO    MainThread:1061 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-05-09 20:58:41,532 INFO    MainThread:1061 [wandb_init.py:_pause_backend():418] pausing backend
+2023-05-09 20:59:10,177 INFO    MainThread:1061 [wandb_init.py:_resume_backend():423] resuming backend
+2023-05-09 20:59:10,192 INFO    MainThread:1061 [wandb_run.py:_config_callback():1286] config_cb ('_wandb', 'viz', 'roc') {'id': 'wandb/roc/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'roc'}} None
+2023-05-09 20:59:10,339 INFO    MainThread:1061 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-05-09 20:59:10,340 INFO    MainThread:1061 [wandb_init.py:_pause_backend():418] pausing backend
+2023-05-09 21:01:41,604 INFO    MainThread:1061 [wandb_init.py:_resume_backend():423] resuming backend
+2023-05-09 21:01:41,609 INFO    MainThread:1061 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-05-09 21:01:41,609 INFO    MainThread:1061 [wandb_init.py:_pause_backend():418] pausing backend
+2023-05-09 21:01:47,227 INFO    MainThread:1061 [wandb_init.py:_resume_backend():423] resuming backend
+2023-05-09 21:01:47,517 INFO    MainThread:1061 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-05-09 21:01:47,517 INFO    MainThread:1061 [wandb_init.py:_pause_backend():418] pausing backend
+2023-05-09 21:02:54,747 INFO    MainThread:1061 [wandb_init.py:_resume_backend():423] resuming backend
+2023-05-09 21:02:54,762 INFO    MainThread:1061 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-05-09 21:02:54,762 INFO    MainThread:1061 [wandb_init.py:_pause_backend():418] pausing backend
+2023-05-09 21:03:07,747 INFO    MainThread:1061 [wandb_init.py:_resume_backend():423] resuming backend
+2023-05-09 21:03:07,766 INFO    MainThread:1061 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-05-09 21:03:07,766 INFO    MainThread:1061 [wandb_init.py:_pause_backend():418] pausing backend
+2023-05-09 21:03:50,255 INFO    MainThread:1061 [wandb_init.py:_resume_backend():423] resuming backend
+2023-05-09 21:03:50,263 INFO    MainThread:1061 [wandb_run.py:_config_callback():1286] config_cb ('_wandb', 'viz', 'confusion_matrix') {'id': 'wandb/confusion_matrix/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'confusion_matrix'}} None
+2023-05-09 21:03:50,403 INFO    MainThread:1061 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-05-09 21:03:50,403 INFO    MainThread:1061 [wandb_init.py:_pause_backend():418] pausing backend
+2023-05-09 21:07:43,395 INFO    MainThread:1061 [wandb_init.py:_resume_backend():423] resuming backend
+2023-05-09 21:07:43,412 INFO    MainThread:1061 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-05-09 21:07:43,412 INFO    MainThread:1061 [wandb_init.py:_pause_backend():418] pausing backend
+2023-05-09 21:08:48,430 INFO    MainThread:1061 [wandb_init.py:_resume_backend():423] resuming backend
+2023-05-09 21:08:48,436 INFO    MainThread:1061 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-05-09 21:08:48,436 INFO    MainThread:1061 [wandb_init.py:_pause_backend():418] pausing backend
+2023-05-09 21:09:02,887 INFO    MainThread:1061 [wandb_init.py:_resume_backend():423] resuming backend
+2023-05-09 21:09:02,984 INFO    MainThread:1061 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-05-09 21:09:02,984 INFO    MainThread:1061 [wandb_init.py:_pause_backend():418] pausing backend
+2023-05-09 21:10:04,469 INFO    MainThread:1061 [wandb_init.py:_resume_backend():423] resuming backend
+2023-05-09 21:10:04,470 INFO    MainThread:1061 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-05-09 21:10:04,470 INFO    MainThread:1061 [wandb_init.py:_pause_backend():418] pausing backend
+2023-05-09 21:11:59,548 INFO    MainThread:1061 [wandb_init.py:_resume_backend():423] resuming backend
+2023-05-09 21:11:59,566 INFO    MainThread:1061 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-05-09 21:11:59,566 INFO    MainThread:1061 [wandb_init.py:_pause_backend():418] pausing backend
+2023-05-09 21:12:07,659 INFO    MainThread:1061 [wandb_init.py:_resume_backend():423] resuming backend
+2023-05-09 21:12:07,660 ERROR   MainThread:1061 [util.py:get_module():226] Error importing optional module torch
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/mlops/lib/python3.10/site-packages/wandb/util.py", line 188, in import_module_lazy
+    return sys.modules[name]
+KeyError: 'torch'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/mlops/lib/python3.10/site-packages/wandb/util.py", line 221, in get_module
+    return import_module_lazy(name)
+  File "/opt/anaconda3/envs/mlops/lib/python3.10/site-packages/wandb/util.py", line 192, in import_module_lazy
+    raise ModuleNotFoundError
+ModuleNotFoundError
+2023-05-09 21:12:07,814 INFO    MainThread:1061 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-05-09 21:12:07,814 INFO    MainThread:1061 [wandb_init.py:_pause_backend():418] pausing backend
+2023-05-09 21:15:24,745 INFO    MainThread:1061 [wandb_init.py:_resume_backend():423] resuming backend
+2023-05-09 21:15:24,768 INFO    MainThread:1061 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-05-09 21:15:24,768 INFO    MainThread:1061 [wandb_init.py:_pause_backend():418] pausing backend
+2023-05-09 21:15:38,229 INFO    MainThread:1061 [wandb_init.py:_resume_backend():423] resuming backend
+2023-05-09 21:15:38,308 INFO    MainThread:1061 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-05-09 21:15:38,308 INFO    MainThread:1061 [wandb_init.py:_pause_backend():418] pausing backend
+2023-05-09 21:15:51,048 INFO    MainThread:1061 [wandb_init.py:_resume_backend():423] resuming backend
+2023-05-09 21:15:51,058 INFO    MainThread:1061 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-05-09 21:15:51,058 INFO    MainThread:1061 [wandb_init.py:_pause_backend():418] pausing backend
+2023-05-09 21:16:05,579 INFO    MainThread:1061 [wandb_init.py:_resume_backend():423] resuming backend
+2023-05-09 21:16:05,745 INFO    MainThread:1061 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-05-09 21:16:05,745 INFO    MainThread:1061 [wandb_init.py:_pause_backend():418] pausing backend
